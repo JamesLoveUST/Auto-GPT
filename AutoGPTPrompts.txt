@@ -1,0 +1,20 @@
+Setting up/Installing Auto GPT: 
+had to remove trailing \r  from ./run.sh using the following command - sed -i 's/\r$//' ./run.sh
+
+
+Paramaters to set up Auto GPT
+
+I want Auto GPT to:
+login to https://www.paypal.com/authflow/password-recovery/?country.x=GB&locale.x=en_GB&redirectUri=%252Fsignin , https://accounts.binance.com/en/login , https://login.coinbase.com/signin?login_challenge=2c32f0e0a8d54e48b8a64439eb611c9e , https://www.bitfinex.com/sign-up/ on my behalf
+
+Name your AI: 
+Crypto Accounts 
+
+Describe your AI's role: 
+I am looking to sign into websites with a given email address and password. The given email address is = 25425helloW0rld@gmail.com the given password is =  helloW0rld342543. The urls for the website login pages are https://www.paypal.com/authflow/password-recovery/?country.x=GB&locale.x=en_GB&redirectUri=%252Fsignin , https://accounts.binance.com/en/login , https://login.coinbase.com/signin?login_challenge=2c32f0e0a8d54e48b8a64439eb611c9e , https://www.bitfinex.com/sign-up/
+
+Goal 1: Go to the login page using the URLs provided. Wait for the page to load and insert username and password provided. Pass captcha if requred. Folowed by return the results.  
+Goal 2:  
+Goal 3: 
+Goal 4: 
+Goal 5: 
